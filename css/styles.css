@@ -1,13 +1,25 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #2e2f42;
-    background-color: #eee;
+    color: #434455;
+    background-color: #fff;
 }
 a {
     text-decoration: none;
 }
 ul {
     list-style-type: none;
+}
+.headr-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.headr-logo span {
+    color: #2e2f42;
 }
 .main-menu a {
     font-weight: 500;
@@ -26,16 +38,20 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: .02em;
+    font-style: normal;
     color: #434455;
 }
 .contact-us a:hover,
 .contact-us a:focus {
     color: #404bbf;
 }
+.sectn-motto {
+    background-color: #2e2f42;
+}
 .order-btn {
-    padding: 16px 32px;
+    /* padding: 16px 32px;
     /* box model */
-    width: 169px;
+    /* width: 169px;
     height: 56px;
     display: flex;
     align-items: flex-start;
@@ -48,27 +64,43 @@ ul {
     line-height: 1.5;
     letter-spacing: .04em;
     color: #fff;
-    /* visuals */
-    box-shadow: 0 4px 4px 0 rgb(0  0  0 / .15);
     background-color: #4d5ae5;
-    border-radius: 4px;
+    /* visuals
+    box-shadow: 0 4px 4px 0 rgb(0  0  0 / .15);
+    border-radius: 4px; */
     cursor: pointer;
 }
-.order-btn:hover {
+.order-btn:hover,
+.order-btn:focus {
     background-color: #404bbf;
+}
+.sectn-team {
+    background-color: #f4f4fd;
+}
+.team-cards li {
+    background-color: #fff;
+}
+.team-cards p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
 }
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: .02em;
+    text-align: center;
     color: #fff;
 }
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: .02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 h3 {
     font-weight: 500;
@@ -76,11 +108,20 @@ h3 {
     line-height: 1.2;
     letter-spacing: .02em;
 }
-.details {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: .02em;
-    color: #434455;
+.footr {
+    background-color: #2e2f42;
+}
+.footr-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footr-logo span {
+    color: #f4f4fd;
 }
 .footr-note {
     font-size: 16px;
