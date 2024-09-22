@@ -1,0 +1,90 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #2e2f42;
+    background-color: #eee;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.main-menu a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+}
+.main-menu a:hover,
+.main-menu a:focus {
+    color: #404bbf;
+}
+.main-menu a:active {
+    text-decoration: underline;
+}
+.contact-us a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+}
+.contact-us a:hover,
+.contact-us a:focus {
+    color: #404bbf;
+}
+.order-btn {
+    padding: 16px 32px;
+    /* box model */
+    width: 169px;
+    height: 56px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    /* typography */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .04em;
+    color: #fff;
+    /* visuals */
+    box-shadow: 0 4px 4px 0 rgb(0  0  0 / .15);
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.order-btn:hover {
+    background-color: #404bbf;
+}
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: .02em;
+    color: #fff;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: .02em;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+}
+.details {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+}
+.footr-note {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #f4f4fd;
+}
