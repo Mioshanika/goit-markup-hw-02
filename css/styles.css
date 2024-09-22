@@ -18,7 +18,7 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.headr-logo span {
+.headrspan {
     color: #2e2f42;
 }
 .main-menu a {
@@ -80,7 +80,9 @@ ul {
 .team-cards li {
     background-color: #fff;
 }
-.team-cards p {
+.team-cards p,
+.project-cards p,
+.principles p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: .02em;
@@ -101,12 +103,14 @@ h2 {
     letter-spacing: .02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: .02em;
+    color: #2e2f42;
 }
 .footr {
     background-color: #2e2f42;
@@ -120,7 +124,7 @@ h3 {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.footr-logo span {
+.footrspan {
     color: #f4f4fd;
 }
 .footr-note {
